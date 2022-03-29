@@ -1,4 +1,4 @@
-package br.com.framework.mvvm.presentation.utils
+package br.com.framework.mvvm.utils
 
 import android.content.Context
 import android.net.ConnectivityManager

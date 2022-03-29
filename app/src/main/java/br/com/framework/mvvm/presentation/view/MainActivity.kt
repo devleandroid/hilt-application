@@ -8,12 +8,10 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import br.com.framework.mvvm.R
 import br.com.framework.mvvm.databinding.ActivityMainBinding
-import br.com.framework.mvvm.presentation.utils.NetworkHelper
-import br.com.framework.mvvm.presentation.view.adapter.CountryAdapter
+import br.com.framework.mvvm.utils.NetworkHelper
+import br.com.framework.mvvm.presentation.adapter.CountryAdapter
 import br.com.framework.mvvm.presentation.viewmodel.MainViewModel
-import dagger.hilt.EntryPoint
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

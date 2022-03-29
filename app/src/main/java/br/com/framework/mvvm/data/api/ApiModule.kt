@@ -1,5 +1,6 @@
 package br.com.framework.mvvm.data.api
 
+import br.com.framework.mvvm.BuildConfig
 import br.com.framework.mvvm.data.repository.Repository
 import dagger.Module
 import dagger.Provides
@@ -35,7 +36,7 @@ object ApiModule {
     @Provides
     fun provideRetrofit(okHttpClient: OkHttpClient): Retrofit = Retrofit.Builder()
         .addConverterFactory(GsonConverterFactory.create())
-        .baseUrl(BASE_URL)
+        .baseUrl(BuildConfig.BASE_URL)
         .client(okHttpClient)
         .build()
 

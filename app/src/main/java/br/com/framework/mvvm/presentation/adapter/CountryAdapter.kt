@@ -1,4 +1,4 @@
-package br.com.framework.mvvm.presentation.view.adapter
+package br.com.framework.mvvm.presentation.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
